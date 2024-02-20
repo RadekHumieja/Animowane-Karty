@@ -39,11 +39,13 @@ body {
 }
 .index {
 	display: flex;
-	justify-content: space-evenly;
-	// gap: 50px;
+	flex-direction: column;
+	// justify-content: space-evenly;
+	align-items: center;
+	gap: 50px;
 	width: 100%;
 	.area {
-		width: 30%;
+		width: 80%;
 		// background-image: url(../img/autumn-1280.jpg);
 		border: 1px solid white;
 		border-radius: 10px;

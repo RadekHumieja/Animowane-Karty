@@ -40,11 +40,13 @@ body {
 
 .index {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
   width: 100%;
 }
 .index .area {
-  width: 30%;
+  width: 80%;
   border: 1px solid white;
   border-radius: 10px;
   perspective: 800px;
