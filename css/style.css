@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Dancing Script", cursive;
+  font-family: "Vidaloka", serif;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 1.6rem;
+  background-color: rgb(65, 61, 61);
+  overflow-x: hidden;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 10px;
+}
+.wrapper_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.index {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.index .area {
+  width: 30%;
+  border: 1px solid white;
+  border-radius: 10px;
+  perspective: 800px;
+}
+.index img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  transform: rotateY(10deg) rotateX(10deg);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Vidaloka', serif;
+	font-family: 'Qwitcher Grypen', cursive;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	// flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	font-size: 1.6rem;
+	background-color: rgb(65, 61, 61);
+	// color: white;
+	overflow-x: hidden;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 10px;
+	&_flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+.index {
+	display: flex;
+	justify-content: space-evenly;
+	// gap: 50px;
+	width: 100%;
+	.area {
+		width: 30%;
+		// background-image: url(../img/autumn-1280.jpg);
+		border: 1px solid white;
+		border-radius: 10px;
+		perspective: 800px;
+		// overflow: hidden;
+	}
+	img {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		transition: transform 0.3s;
+		// &:hover{
+		transform: rotateY(10deg) rotateX(10deg);
+		// }
+	}
+}
